@@ -86,7 +86,7 @@ Likewise you can use the provided shell scripts to start the client only, stop j
 
 Make sure docker is installed in your system and updated 
 
-The provided docker compose file will build and complile the project. IF you wish to change the bind mounts you can edit the bind mounts in the docker-compose.yml file to the bind mounts you want. Currently both the relays (containers) have been bound to 8080 port and the host is connected to 7001 (nostr-rs-relay) ,7002(rnostr) relay and 7003 (pyrelay)  
+The provided docker compose file will build and complile the project. IF you wish to change the bind mounts you can edit the bind mounts in the docker-compose.yml file to the bind mounts you want. Currently both the relays (containers) have been bound to 8080 port and the host is connected to 7001 (nostr-rs-relay) ,7002(rnostr) relay, 7003 (pyrelay)  and 3000 connected to the client
 
 The command below will create docker images and start all the relays (containers) ⚠️ make sure to cd into the project first
 
