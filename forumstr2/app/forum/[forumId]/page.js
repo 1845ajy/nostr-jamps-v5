@@ -19,11 +19,8 @@ export default async function Forum({ params }) {
         <p className="text-base">{forum.description}</p>
       </div>
 
-      <div>
-        <PrimaryButton
-          copy="Create Thread"
-          link={`/forum/${params.forumId}/thread/create`}
-        />
+      <div> 
+        
         <ThreadList forumId={params.forumId} />
       </div>
     </main>
