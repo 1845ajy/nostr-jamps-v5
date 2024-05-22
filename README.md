@@ -291,3 +291,4 @@ Supply chain data needs to be stored in the distributed ledger format. We reccom
 This way each order number would have its own unique identifying number which can be used to form relations with unique customers, items etc. 
 
 
+"# nostr-jamps-v5" 
